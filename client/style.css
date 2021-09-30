@@ -1,0 +1,38 @@
+#wrapper {
+    text-align: center;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    color: #2c3e50;
+}
+
+#leftImages {
+    width: 200px;
+    height: 600px;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+
+}
+
+#leftImages #imagesList {
+    margin-top: 20px;
+}
+
+#leftImages img {
+    width: 100px;
+    border: gainsboro dashed 2px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+#paintCanvas {
+    width: 600px;
+    height: 400px;
+    border: dashed dimgray 3px;
+    cursor: crosshair;
+}
+
+#statistics span {
+    display: inline-block;
+    margin-left: 20px;
+}
